@@ -1,0 +1,8 @@
+.hover {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hover:hover {
+    background-color: rgba(102, 102, 102, 0.3);
+}

@@ -1,0 +1,47 @@
+.banner {
+    background-image: url("https://i.ibb.co/rcxh8qp/banner-bg.png");
+    background-size: cover;
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.profile_datas {
+    margin-top: -50px !important;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title {
+    padding-left: 40px;
+    display: flex;
+    margin-top:  40px !important;
+    margin-left: -100px !important;
+    align-items: center;
+}
+
+.profile_friends {
+    margin-left: 15px;
+}
+
+.profile_shows {
+    margin: 20px;
+}
+
+@media (max-width: 650px) {
+    .avatar {
+        margin-top: -50px;
+    }
+    .title {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+}
